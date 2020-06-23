@@ -5,7 +5,6 @@
 }
 
 body {
-  background: #e5e5e5;
   color: #757575;
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -24,7 +23,6 @@ button {
 }
 
 /* logo*/
-
 .logo {
   color: var(--accent-focus-color);
   font-family: Raleway, cursive;
@@ -35,11 +33,6 @@ button {
 
 .logo-part {
   color: var(--main-text-color);
-}
-
-.logo .logo-part:hover,
-.logo .logo-part:focus {
-  color: var(--accent-focus-color);
 }
 
 .site-nav .link {
@@ -75,7 +68,7 @@ button {
 }
 
 .hero-title {
-  color: var(--white-text-color);
+  /* color: var(--white-text-color); */
   font-style: 400;
   font-weight: 900;
   font-size: 44px;
@@ -143,6 +136,9 @@ footer {
   background-color: #2f303a;
 }
 
+.logo-part.accent {
+  color: var(--white-text-color);
+}
 .address {
   font-size: 14px;
   line-height: 1.7;
@@ -160,7 +156,6 @@ footer {
 
 .call {
   color: var(--white-text-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
